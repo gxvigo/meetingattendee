@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html class="age-overlay">
+    <head>
+        <link rel="stylesheet" href="/stylesheets/meyerreset.css">
+        <link rel="stylesheet" href="/stylesheets/style.css">
+    </head>
+
+    <body>
+
+        <div class="section-title">
+            <h1>Meeting participants</h1>
+        </div>
+        
+        <div class="section-list">
+            <ul>
+                    <% userlist.forEach(function(user) {   %>
+                        <li> <%= user.username %> - <%= user.email %> </li>
+                    <% }); %>
+            </ul>
+        </div>
+
+        <div class="section-form">
+            <form name="addUser" method="post" action="/adduser">
+                <input type="text" name="username" placeholder="username">
+                <input type="text" name="useremail" placeholder="useremail">
+                <input type="submit" value="Submit">
+            </form> 
+        </div>
+
+    </body>
+</html>

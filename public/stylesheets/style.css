@@ -1,0 +1,41 @@
+html { 
+  background: url(../images/meeting_empty_b.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity:    0.85; 
+
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.section-title {
+ font-weight: 600;
+ font-size: 42px;
+ font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+ color: #fff;
+}
+
+.section-title h1 {
+  text-align: center;
+}
+
+.section-list {
+  margin-top: 40px;
+  font-weight: 100;
+  font-size: 18px;
+  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  color: #fff;
+}
+
+.section-form {
+  margin-top: 40px;
+}
+
+.section-form input {
+  display: inline; 
+}
